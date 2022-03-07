@@ -64,12 +64,18 @@ header {
 #flexbox {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
 }
-#flexbox > h1 {
+
+.div-img > h1 {
+    display: flex;
     position: absolute;
-    margin: 100px 0 0 0;
+    top: 30px;
+}
+.div-img > p{
+    display: flex;
+    position: absolute;
 }
 /* 新築・注文住宅*/
 
