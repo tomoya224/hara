@@ -64,6 +64,7 @@ header {
 #flexbox {
     width: 100%;
     display: flex;
+    position: relative;
 }
 #flexbox > h1 {
     position: absolute;
@@ -72,7 +73,24 @@ header {
 /* 新築・注文住宅*/
 
 /* 展示場の来場案内 */
-.go-h1 {
-    position: absolute;
+.go {
+    position: relative;
 }
+.go h1 {
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+}
+.go p {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+   width: 80%;
+   font-size: 10px;
+}
+
 
