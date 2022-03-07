@@ -65,5 +65,14 @@ header {
     width: 100%;
     display: flex;
 }
+#flexbox > h1 {
+    position: absolute;
+    margin: 100px 0 0 0;
+}
 /* 新築・注文住宅*/
+
+/* 展示場の来場案内 */
+.go-h1 {
+    position: absolute;
+}
 
