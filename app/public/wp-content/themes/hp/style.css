@@ -1,0 +1,69 @@
+/* 横幅設定 */
+body{
+ max-width: 1080px;
+ min-width: 960px;
+ margin: 0 auto 0 auto;
+}
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto 0 auto;   
+}
+
+/* ナビゲーションのレイアウト */
+#nav-pc {
+    text-align: right;
+    font-size: 14px;
+    padding-top: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+/* ナビゲーションのリンク装飾設定 */
+#nav-pc > a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+#nav-pc > a:link {
+    color: black;
+}
+#nav-pc > a:hover {
+    color: black;
+    text-decoration: underline;
+}
+#nav-pc > a:active {
+    color: black;
+}
+
+/* メイン */
+.main-img {
+   width: 100%;
+   margin: 20px 0 0 0;
+}
+
+#main-message > h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 100px 0 0 50px;
+    color: white;
+    position: absolute;
+}
+#main-message > p {
+    font-size: 20px;
+    margin: 200px 0 0 400px;
+    position: absolute;
+}
+
+/* リノベーション・リフォーム */
+#reform {
+    margin: 80px auto 80px auto;
+    width: 100%;
+}
+#flexbox {
+    width: 100%;
+    display: flex;
+}
+/* 新築・注文住宅*/
+
