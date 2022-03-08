@@ -100,4 +100,53 @@ header {
    font-size: 10px;
 }
 
+/* イベント */
+.event-h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.event-img {
+    width: 100%;
+    height: 250px;
+}
+
+/* ブログ */
+.blog > h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.blog-img > h1 {
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+}
+#blog-flex {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 住まいの訪問記 */
+.home > h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.home-img > h1 {
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+}
+#home-flex {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
 
