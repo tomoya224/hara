@@ -25,6 +25,7 @@ header {
 #nav-pc > a {
     text-decoration: none;
     margin-left: 20px;
+    color: black;
 }
 #nav-pc > a:link {
     color: black;
@@ -123,15 +124,16 @@ header {
 }
 
 /* ブログ */
-.blog > a {
-    font-size: 30px;
+.blog-img > a {
+    font-size: 14px;
     text-align: center;
     text-decoration: none;
+    color: black;
     }
-    .blog > a:link {
+    .blog-img > a:link {
         color: black;
     }
-    .blog > a:hover {
+    .blog-img > a:hover {
         color: black;
         text-decoration: underline;
     }
@@ -183,14 +185,35 @@ header {
 /* フッター */
 footer {
     width: auto;
-    background-color: black;
+    height: 500px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto 0 auto;
+    
+}
+#footer-link {
+    display: block;
+    text-align: right;
 }
 #footer-link > a {
-    color: white;
+    font-size: 20px;
+    color: black;
     text-decoration: none;
+    text-align: right;
+    
 }
+
 #footer-link > a:hover {
 text-decoration: underline;
+}
+
+#footer-link > p {
+    text-decoration: none;
+}
+#footer-link > p:hover {
+    text-decoration: underline;
 }
 
 
