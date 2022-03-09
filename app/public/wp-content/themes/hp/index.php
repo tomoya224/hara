@@ -55,15 +55,15 @@
   <div id="blog-flex">
 <div class="blog-img">
   <img src="<?php echo get_template_directory_uri() ?>/images/blog1.png">
-  <h1>コロナ対策を考えた家づくりのポイント。</h1>
+  <a href>コロナ対策を考えた家づくりのポイント。</a>
 </div>
 <div class="blog-img">
   <img src="<?php echo get_template_directory_uri() ?>/images/blog2.png">
-  <h1>必見！！！山口市の分譲地</h1>
+  <a href>必見!!!山口市の分譲地</a>
 </div>
 <div class="blog-img">
   <img src="<?php echo get_template_directory_uri() ?>/images/blog3.png">
-  <h1>分譲住宅のご案内</h1>
+  <a href>分譲住宅のご案内</a>
 </div>
 </div>
 </div>

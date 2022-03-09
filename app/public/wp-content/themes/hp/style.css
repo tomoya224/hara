@@ -42,13 +42,16 @@ header {
    width: 100%;
    margin: 20px 0 0 0;
 }
+#main-message {
+    text-align: center;
+}
 
 #main-message > h1 {
     font-size: 60px;
     font-weight: bold;
-    margin: 100px 0 0 50px;
     color: white;
     position: absolute;
+    display: inline-block;
 }
 #main-message > p {
     font-size: 20px;
@@ -113,14 +116,33 @@ header {
 }
 
 /* ブログ */
-.blog > h1 {
+.blog > a {
     font-size: 30px;
     text-align: center;
+    text-decoration: none;
+    }
+    .blog > a:link {
+        color: black;
+    }
+    .blog > a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    .blog > a:active {
+        color: black;
+    }
+
+.blog-img {
+    width: 300px;
+    height: 180px;
+    justify-content: space-between;
+    
 }
-.blog-img > h1 {
-    font-size:14px;
+.blog > h1 {
+    font-size:30px;
     font-weight: bold;
     text-align: center;
+    
 }
 #blog-flex {
     font-size: 14px;
@@ -132,6 +154,7 @@ header {
 .home > h1 {
     font-size: 30px;
     text-align: center;
+    margin-top: 100px;
 }
 
 .home-img > h1 {
