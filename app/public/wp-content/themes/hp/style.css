@@ -42,16 +42,20 @@ header {
    width: 100%;
    margin: 20px 0 0 0;
 }
-#main-message {
-    text-align: center;
+#main-visual {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
 }
 
-#main-message > h1 {
+#main-message  {
     font-size: 60px;
     font-weight: bold;
     color: white;
     position: absolute;
-    display: inline-block;
+    display: block;
+    margin-left: 200px;
 }
 #main-message > p {
     font-size: 20px;
@@ -63,6 +67,7 @@ header {
 #reform {
     margin: 80px auto 80px auto;
     width: 100%;
+    
 }
 #flexbox {
     width: 100%;
@@ -85,21 +90,23 @@ header {
 /* 展示場の来場案内 */
 .go {
     position: relative;
+    display: table;
+    width: 100%;
 }
-.go h1 {
+
+.go > h1 {
    position: absolute;
    top: 30%;
    left: 50%;
    transform: translate(-50%,-50%);
    color: white;
 }
-.go p {
-   position: absolute;
-   top: 50%;
+.go > p {
+    position: absolute;
+    top: 50%;
    left: 50%;
    transform: translate(-50%,-50%);
    color: white;
-   width: 80%;
    font-size: 10px;
 }
 
@@ -158,7 +165,7 @@ header {
 }
 .home-img {
     width: 500px;
-    height: 300px;
+    
     justify-content: space-between;
 }
 
@@ -173,6 +180,18 @@ header {
     justify-content: space-between;
 }
 
+/* フッター */
+footer {
+    width: auto;
+    background-color: black;
+}
+#footer-link > a {
+    color: white;
+    text-decoration: none;
+}
+#footer-link > a:hover {
+text-decoration: underline;
+}
 
 
 
