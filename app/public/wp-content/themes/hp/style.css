@@ -40,7 +40,7 @@ header {
 
 /* メイン */
 .main-img {
-   width: 100%;
+   width: auto;
    margin: 20px 0 0 0;
 }
 #main-visual {
@@ -56,7 +56,7 @@ header {
     color: white;
     position: absolute;
     display: block;
-    margin-left: 200px;
+    justify-content: center;
 }
 #main-message > p {
     font-size: 20px;
@@ -86,6 +86,7 @@ header {
 .div-img > p{
     display: flex;
     position: absolute;
+    top: 50px;
 }
 /* 新築・注文住宅*/
 
