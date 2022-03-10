@@ -1,14 +1,14 @@
 /* 横幅設定 */
 body{
- max-width: 1080px;
- min-width: 960px;
+ max-width: 1920px;
+ min-width: 1080px;
  margin: 0 auto 0 auto;
 }
 /* ヘッダー */
 header {
     display: flex;
     justify-content: space-between;
-    max-width: 980px;
+    max-width: 1080px;
     margin: 0 auto 0 auto;   
 }
 

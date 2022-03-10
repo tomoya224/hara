@@ -44,5 +44,10 @@
          <p href>九州・山口匠の会</p>
     </div>
 </footer>
+
+<?php wp_footer(); ?>
+<script type="text/javascript">
+    $(".carousel").carousel();
+</script>
 </body>
 </html>
