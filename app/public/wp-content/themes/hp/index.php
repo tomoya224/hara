@@ -70,16 +70,15 @@
 </div>
 
 <!-- 住まいの訪問記 -->
-<div class="home">
-  <h1>住まいの訪問記</h1>
-
+<section id="home">
+  <h1 class="home-h1">住まいの訪問記</h1>
   <div id="home-flex">
     <div class="home-img">
       <img src="<?php echo get_template_directory_uri() ?>/images/home1.png">
       <h1>家族時間を大切にする暮らし</h1>
   </div>
   <div>
-    <div class="home-img">
+    <div class="home-img1">
       <img src="<?php echo get_template_directory_uri() ?>/images/home2.png">
       <h1>趣味と”好き”がつまった住まい</h1>
   </div>
