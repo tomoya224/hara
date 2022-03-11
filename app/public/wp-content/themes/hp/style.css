@@ -183,7 +183,7 @@ header {
     text-align: center;
 }
 #home-flex {
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
