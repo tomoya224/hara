@@ -53,20 +53,25 @@
 <div class="blog">
   <h1>スタッフブログ</h1>
 
-  <div id="blog-flex">
-<div class="blog-img">
-  <img src="<?php echo get_template_directory_uri() ?>/images/blog1.png">
-  <a href>コロナ対策を考えた家づくりのポイント。</a>
-</div>
-<div class="blog-img">
-  <img src="<?php echo get_template_directory_uri() ?>/images/blog2.png">
-  <a href>必見!!!山口市の分譲地</a>
-</div>
-<div class="blog-img">
-  <img src="<?php echo get_template_directory_uri() ?>/images/blog3.png">
-  <a href>分譲住宅のご案内</a>
-</div>
-</div>
+<div id="blog-flex">
+  <div class="blog-img">
+    <div>
+      <img src="<?php echo get_template_directory_uri() ?>/images/blog1.png">
+    </div>
+    <a href>コロナ対策を考えた家づくりのポイント。</a>
+ </div>
+ <div class="blog-img">
+    <div>
+      <img src="<?php echo get_template_directory_uri() ?>/images/blog2.png">
+    </div>
+    <a href>必見!!!山口市の分譲地</a>
+  </div>
+  <div class="blog-img">
+    <div>
+      <img src="<?php echo get_template_directory_uri() ?>/images/blog3.png">
+    </div>
+    <a href>分譲住宅のご案内</a>
+  </div>
 </div>
 
 <!-- 住まいの訪問記 -->
@@ -74,14 +79,16 @@
   <h1 class="home-h1">住まいの訪問記</h1>
   <div id="home-flex">
     <div class="home-img">
-      <img src="<?php echo get_template_directory_uri() ?>/images/home1.png">
+      <div>
+        <img src="<?php echo get_template_directory_uri() ?>/images/home-img1.png">
+      </div>
       <h1>家族時間を大切にする暮らし</h1>
-  </div>
-  <div>
+    </div>
     <div class="home-img">
-      <img src="<?php echo get_template_directory_uri() ?>/images/home2.png">
+      <img src="<?php echo get_template_directory_uri() ?>/images/home-img1.png">
       <h1>趣味と”好き”がつまった住まい</h1>
+    </div>
   </div>
-</div>
+</section>
 
  <?php get_footer(); ?>
