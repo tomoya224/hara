@@ -2,47 +2,59 @@
 
 </main>
 <footer>
-    <div id="footer-link">
-        <a href>新築・注文住宅</a>
-         <p href>原工務店の家づくり</p>
-         <p href>ZEHへの取り組み</P>
-         <p href>施工事例</p>
-         <p href>住まいの訪問記</p>
-         <p href>住宅展示場</p>
-         <p href>家づくりの流れ</p>
-         <p href>自然素材辞典</p>
-        <a href>リフォーム</a>
-         <p href>施工事例</p>
-         <p href>古民家再生</p>
-         <p href>山口ショールーム</p>
-         <p href>リフォームFAQ</p>
-         <p href>リフォームの流れ</p>
-</div>
-    <div id="footer-link">
-        <a href>不動産</a>
-         <p href>不動産情報</p>
-         <p href>新築分譲住宅「アーバンキュービックキュービック松崎」
-         <p href>売り物件募集</p>  
-        <a href>企業情報</a>
-         <p href>会社概要</p>
-         <p href>沿革</p>
-         <p href>拠点</p>
-         <p href>スタッフ</p>
-         <p href>TVCM</p>
-</div>  
-    <div id="footer-link">
-        <a href>イベント情報</a>
-         <p href>お問い合わせ・資料請求</p>
-         <p href>採用情報</p>
-         <p href>ブログ</p>
-         <p href>お知らせ</p>
-         <p href>個人情報保護方針</p>
-         <p href>サイトマップ</p>
-         <p href>もっくの森</p>
-         <p href>ハラ・ビレッジ</p>
-         <p href>ココチュール</p>
-         <p href>九州・山口匠の会</p>
-    </div>
+    <div class="footer-wrap">
+      <div class="menu-left">
+          <h3>新築・注文住宅</h3>
+          <ul class="footer-left">
+             <li><a href>原工務店の家づくり</a></li>
+             <li><a href>ZEHへの取り組み</a></li>
+             <li><a href>施工事例</a></li>
+             <li><a href>住まいの訪問記</a></li>
+             <li><a href>住宅展示場</a></li>
+             <li><a href>家づくりの流れ</a></li>
+             <li><a href>自然素材辞典</a></li>
+           </ul>
+           <h3>リフォーム</h3>
+           <ul class="footer-left">
+               <li><a href>施工事例</a></li>
+               <li><a href>古民家再生</a></li>
+               <li><a href>山口ショールーム</a></li>
+               <li><a href>リフォームFAQ</a></li>
+               <li><a href>リフォームの流れ</a></li>
+           </ul>
+       </div>
+       <div class="menu-center">
+           <h3>不動産</h3>
+           <ul class="footer-center">
+               <li><a href>不動産情報</a></li>
+               <li><a href>新築分譲住宅「アーバンキュービックキュービック松崎」</a></li>
+               <li><a href>売り物件募集</a></li>  
+           </ul>
+           <h3>企業情報</h3>
+           <ul class="footer-center">
+               <li><a href>会社概要</a></li>
+               <li><a href>沿革</a></li>
+               <li><a href>拠点</a></li>
+               <li><a href>スタッフ</a></li>
+               <li><a href>TVCM</a></li>
+           </ul>
+      </div>  
+      <div class="menu-right">
+          <h3>イベント情報</h3>
+          <ul class="footer-right">
+              <li><a href>お問い合わせ・資料請求</a></li>
+              <li><a href>採用情報</a></li>
+              <li><a href>ブログ</a></li>
+              <li><a href>お知らせ</a></li>
+              <li><a href>個人情報保護方針</a></li>
+              <li><a href>サイトマップ</a></li>
+              <li><a href>もっくの森</a></li>
+              <li><a href>ハラ・ビレッジ</a></li>
+              <li><a href>ココチュール</a></li>
+              <li><a href>九州・山口匠の会</a></li>
+          </ul>
+      </div>
+   </div>
 </footer>
 
 <?php wp_footer(); ?>

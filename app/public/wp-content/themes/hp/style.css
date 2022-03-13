@@ -84,12 +84,12 @@ header {
 .div-img > h1 {
     display: flex;
     position: absolute;
-    top: 30px;
+    margin: 50px 50px;
 }
 .div-img > p{
     display: flex;
     position: absolute;
-    top: 50px;
+    margin: 70px 50px;
 }
 /* 新築・注文住宅*/
 
@@ -202,33 +202,56 @@ footer {
     margin: 0 auto 0 auto;
     
 }
-#footer-link {
-    display: block;
-    text-align: right;
+.footer-wrap .menu-left, .menu-center, .menu-right {
+    display: inline-block;
+    width: 20%;
+    margin: 50px 20px;
 }
-#footer-link > a {
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
+.menu-center {
+    padding-top: 0px;
+}
+.menu-left > h3 {
     text-align: left;
+    border-bottom: 3px solid #2ac5b3;
+    padding: 5px;
     
 }
-
-#footer-link > a:hover {
-text-decoration: underline;
+.menu-center > h3 {
+    text-align: left;
+    border-bottom: 3px solid #2ac5b3;
+    padding: 5px;
 }
-
-#footer-link > p {
-    text-decoration: none;
+.menu-right > h3 {
+    text-align: left;
+    border-bottom: 3px solid #2ac5b3;
+    padding: 5px;
+}
+.footer-wrap  ul {
+    list-style: none;
+    padding: 0;
+    line-height: 20px;
     text-align: left;
 }
-#footer-link > p:hover {
-    text-decoration: underline;
+.footer-wrap {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
 }
+.footer-wrap a {
+    text-decoration: none;
+    color: black;
+}
+.footer-wrap a:hover {
+    color: orange;
+}
+
+
+
 
 
 /* 固定ページ */
 #shintiku {
+    width: 100%;
     font-size: 30px;
     text-align: left;
 }
