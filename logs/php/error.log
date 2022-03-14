@@ -44,3 +44,4 @@ Stack trace:
 #2 /Users/nanzhiye/Local Sites/hp/app/public/index.php(17): require('/Users/nanzhiye...')
 #3 {main}
   thrown in /Users/nanzhiye/Local Sites/hp/app/public/wp-content/themes/hp/index.php on line 60
+[14-Mar-2022 12:08:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/nanzhiye/Local Sites/hp/app/public/wp-content/themes/hp/page-h.php on line 22

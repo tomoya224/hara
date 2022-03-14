@@ -13,7 +13,7 @@
   <img src="<?php echo get_template_directory_uri() ?>/images/logo.png">
 
   <!-- ナビ -->
-  <nav id="nav-pc">
+  <nav class="nav-pc">
       <a href="/%e5%ae%9f%e7%b8%be%e3%83%9a%e3%83%bc%e3%82%b8/">新築・注文住宅</a>
       <a href>リフォーム</a>
       <a href>不動産</a>

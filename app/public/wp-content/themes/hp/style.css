@@ -13,7 +13,7 @@ header {
 }
 
 /* ナビゲーションのレイアウト */
-#nav-pc {
+.nav-pc {
     text-align: right;
     font-size: 14px;
     padding-top: 15px;
@@ -22,19 +22,19 @@ header {
 }
 
 /* ナビゲーションのリンク装飾設定 */
-#nav-pc > a {
+.nav-pc > a {
     text-decoration: none;
     margin-left: 20px;
+    color: black;   
+}
+.nav-pc > a:link {
     color: black;
 }
-#nav-pc > a:link {
-    color: black;
-}
-#nav-pc > a:hover {
-    color: black;
+.nav-pc > a:hover {
+    color: orange;
     text-decoration: underline;
 }
-#nav-pc > a:active {
+.nav-pc > a:active {
     color: black;
 }
 
@@ -67,29 +67,30 @@ header {
 /* リノベーション・リフォーム */
 #reform {
     margin: 80px auto 80px auto;
-    width: 100%;
+    width: 100%; 
     
 }
-#flexbox {
+#reform-flex {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: relative;
     padding: 10px;
 }
 .div-img {
-    margin: 0 10px;
+    width: 100%;
+    margin: 0 10px 20px 0;
+    display: table;
 }
 
 .div-img > h1 {
-    display: flex;
-    position: absolute;
-    margin: 50px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 .div-img > p{
-    display: flex;
-    position: absolute;
-    margin: 70px 50px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
 }
 /* 新築・注文住宅*/
 
@@ -114,6 +115,8 @@ header {
    transform: translate(-50%,-50%);
    color: white;
    font-size: 10px;
+   text-align: center;
+   width: 100%;
 }
 
 /* イベント */
@@ -129,9 +132,19 @@ header {
 }
 
 /* ブログ */
+.blog {
+    margin: 80px auto 80px auto;
+    width: 100%;
+}
+.blog-h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+}
 .blog-img > a {
     font-size: 14px;
     text-align: center;
+    font-weight: bold;
     text-decoration: none;
     color: black;
     }
@@ -139,7 +152,7 @@ header {
         color: black;
     }
     .blog-img > a:hover {
-        color: black;
+        color: orange;
         text-decoration: underline;
     }
     .blog > a:active {
@@ -147,21 +160,15 @@ header {
     }
 
 .blog-img {
-    width: 300px;
-    height: 100px;
-    justify-content: space-between;
-    
-}
-.blog > h1 {
-    font-size:30px;
-    font-weight: bold;
-    text-align: center;
+    width: 100%;
+    margin: 0 10px 20px 0;
     
 }
 #blog-flex {
-    font-size: 14px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 /* 住まいの訪問記 */
@@ -193,6 +200,7 @@ header {
 
 /* フッター */
 footer {
+    margin-left: 25%;
     width: 100%;
     height: 500px;
     background-color: lightgray;
@@ -205,7 +213,7 @@ footer {
 .footer-wrap .menu-left, .menu-center, .menu-right {
     display: inline-block;
     width: 20%;
-    margin: 50px 20px;
+    margin: 50px 70px auto 50px;
 }
 .menu-center {
     padding-top: 0px;
@@ -235,7 +243,7 @@ footer {
 .footer-wrap {
     background-color: lightgray;
     color: black;
-    text-align: center;
+    display: flex;
 }
 .footer-wrap a {
     text-decoration: none;

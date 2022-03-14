@@ -13,21 +13,27 @@
      </section>
 
   <section id="reform">
-    <div id="flexbox">
+    <div id="reform-flex">
       <div class="div-img">
-         <h1>リノベーション・リフォーム</h1>
-         <p>暮らしに合わせた住まいの見直し</p>
-         <img src="<?php echo get_template_directory_uri() ?>/images/reform.png"> 
-</div>
-<div class="div-img">
-         <h1>新築・注文住宅</h1>
-         <p>光と風と木の住まい</p>
+        <div>
+          <img src="<?php echo get_template_directory_uri() ?>/images/reform.png"> 
+        </div>
+        <h1>リノベーション・リフォーム</h1>
+        <p>暮らしに合わせた住まいの見直し</p>
+      </div>  
+      <div class="div-img">
+        <div>
           <img src="<?php echo get_template_directory_uri() ?>/images/reform.png">
-</div>
-<div class="div-img">
-         <h1>不動産・システム建築</h1>
-         <p>賃貸住宅・中古住宅・土地</p>
+       </div>
+       <h1>新築・注文住宅</h1>
+       <p>光と風と木の住まい</p>          
+     </div>
+     <div class="div-img">
+       <div>
          <img src="<?php echo get_template_directory_uri() ?>/images/reform.png">
+       </div>
+       <h1>不動産・システム建築</h1>
+       <p>賃貸住宅・中古住宅・土地</p> 
       </div>
     </div>    
 </section>
@@ -51,27 +57,27 @@
 
 <!-- スタッフブログ -->
 <div class="blog">
-  <h1>スタッフブログ</h1>
-
-<div id="blog-flex">
-  <div class="blog-img">
-    <div>
-      <img src="<?php echo get_template_directory_uri() ?>/images/blog1.png">
-    </div>
-    <a href>コロナ対策を考えた家づくりのポイント。</a>
+  <h1 class="blog-h1">スタッフブログ</h1>
+  <div id="blog-flex">
+     <div class="blog-img">
+        <div>
+          <img src="<?php echo get_template_directory_uri() ?>/images/blog1.png">
+        </div>
+        <a href>コロナ対策を考えた家づくりのポイント。</a>
+     </div>
+     <div class="blog-img">
+        <div>
+          <img src="<?php echo get_template_directory_uri() ?>/images/blog2.png">
+        </div>
+        <a href>必見!!!山口市の分譲地</a>
+     </div>
+     <div class="blog-img">
+        <div>
+          <img src="<?php echo get_template_directory_uri() ?>/images/blog3.png">
+       </div>
+       <a href>分譲住宅のご案内</a>
+     </div>
  </div>
- <div class="blog-img">
-    <div>
-      <img src="<?php echo get_template_directory_uri() ?>/images/blog2.png">
-    </div>
-    <a href>必見!!!山口市の分譲地</a>
-  </div>
-  <div class="blog-img">
-    <div>
-      <img src="<?php echo get_template_directory_uri() ?>/images/blog3.png">
-    </div>
-    <a href>分譲住宅のご案内</a>
-  </div>
 </div>
 
 <!-- 住まいの訪問記 -->
