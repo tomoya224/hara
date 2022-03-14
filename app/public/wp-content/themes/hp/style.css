@@ -80,17 +80,26 @@ header {
     width: 100%;
     margin: 0 10px 20px 0;
     display: table;
+    position: relative;
 }
 
 .div-img > h1 {
     font-size: 14px;
     font-weight: bold;
-    text-align: center;
+    
+    position: absolute;
+    top: 30%;
+   left: 50%;
+   transform: translate(-50%,-50%);
 }
 .div-img > p{
     font-size: 14px;
     font-weight: bold;
     text-align: center;
+    position: absolute;
+    top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
 }
 /* 新築・注文住宅*/
 
