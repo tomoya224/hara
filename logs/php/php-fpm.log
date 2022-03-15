@@ -90,3 +90,8 @@
 [15-Mar-2022 00:07:54] NOTICE: exiting, bye-bye!
 [15-Mar-2022 08:17:12] NOTICE: fpm is running, pid 779
 [15-Mar-2022 08:17:12] NOTICE: ready to handle connections
+[15-Mar-2022 08:28:23] NOTICE: Terminating ...
+[15-Mar-2022 08:28:23] NOTICE: Terminating ...
+[15-Mar-2022 08:28:23] NOTICE: exiting, bye-bye!
+[15-Mar-2022 20:28:56] NOTICE: fpm is running, pid 837
+[15-Mar-2022 20:28:56] NOTICE: ready to handle connections

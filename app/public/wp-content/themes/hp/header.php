@@ -15,7 +15,7 @@
   <!-- ナビ -->
   <nav class="nav-pc">
       <a href="/%e5%ae%9f%e7%b8%be%e3%83%9a%e3%83%bc%e3%82%b8/">新築・注文住宅</a>
-      <a href>リフォーム</a>
+      <a href="/%e3%83%aa%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/">リフォーム</a>
       <a href>不動産</a>
       <a href>企業情報</a>
       <a href>住宅展示場</a>
