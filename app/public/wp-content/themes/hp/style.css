@@ -275,6 +275,7 @@ footer {
     height: 150px;
     background-color: lightgoldenrodyellow;
     text-align: left;
+    margin-top: 20px;
 }
 .header_info  > div {
     font-size: 30px;
@@ -352,6 +353,7 @@ footer {
     width: 100%;
     height: 150px;
     background-color: lightgoldenrodyellow;
+    margin-top: 20px;
 }
 .header_re > div {
     font-size: 30px;
@@ -396,6 +398,7 @@ footer {
     width: 100%;
     height: 150px;
     background-color: lightgoldenrodyellow;
+    margin-top: 20px;
 }
 .header_fudo > div {
     font-size: 30px;
@@ -425,6 +428,15 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+.toti-img > h2:link {
+    color: black;
+}
+.toti-img > h2:hover {
+    color: orange;
+}
+.toti-img > h2:active {
+    color: purple;
+}
 .toti-img > p {
     text-align: left;
 }
@@ -448,6 +460,18 @@ footer {
     width: 100%;
     margin: 0 10px 20px 0;
 }
-
+.tate-img > h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.tate-img > h2:link {
+    color: black;
+}
+.tate-img > h2:hover {
+    color: orange;
+}
+.tate-img > h2:active {
+    color: purple;
+}
 
 

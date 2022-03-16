@@ -15,7 +15,7 @@
     <h1 class="toti-h1">土地</h1>
     <div class="toti-flex">
         <div class="toti-img">
-            <h2>売買</h2>
+            <h2 href>売買</h2>
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/images/toti.png">
             </div>
@@ -26,7 +26,7 @@
             </p>
         </div>
         <div class="toti-img">
-            <h2>賃貸</h2>
+            <h2 href>賃貸</h2>
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/images/toti2.png">
             </div>
@@ -46,13 +46,13 @@
     <h1 class="tate-h1">建物</h1>
     <div class="tate-flex">
         <div class="tate-img">
-            <p>売買</p>
+            <h2 href>売買</h2>
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/images/tate1.png">
             </div>
         </div>
         <div class="tate-img">
-            <p>賃貸</p>
+            <h2 href>賃貸</h2>
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/images/tate2.png">
             </div>
