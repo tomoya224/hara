@@ -17,13 +17,13 @@
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/images/re1.png">
             </div>
-            <p href>和室リフォーム</p>
+            <a href="/%e5%92%8c%e5%ae%a4%e3%83%aa%e3%83%95%e3%82%a9%e3%83%bc%e3%83%a0/">和室リフォーム</a>
         </div>
         <div class="re-img">
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/images/re1.png">
             </div>
-            <p href>和室リフォーム</p>
+            <a href>和室リフォーム</a>
         </div>
     </div>
     <div class="re-flex">
@@ -37,7 +37,7 @@
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/images/re3.png">
             </div>
-            <p href>LDKリフォーム</p>
+            <a href>LDKリフォーム</a>
         </div>
     </div>
 </div>

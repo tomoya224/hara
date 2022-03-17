@@ -6,11 +6,12 @@
 <link rel="stylesheet"  type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
 <?php wp_head(); ?>
 </head>
+
 <body>
  <header>
   <!-- ヘッダー -->
-  <a href="index.php" id="logo">
-     <img src="<?php echo get_template_directory_uri() ?>/images/logo.png">
+  <a href="<?php echo home_url();?> ">
+     <img src="<?php echo get_template_directory_uri() ?>/images/logo1.JPG">
   </a>
 
   <!-- ナビ -->
