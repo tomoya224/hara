@@ -11,7 +11,7 @@
  <header>
   <!-- ヘッダー -->
   <a href="<?php echo home_url();?> ">
-     <img src="<?php echo get_template_directory_uri() ?>/images/logo1.JPG">
+     <img src="<?php echo get_template_directory_uri() ?>/images/logo.png">
   </a>
 
   <!-- ナビ -->

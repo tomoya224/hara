@@ -3,6 +3,7 @@ body{
  max-width: 1920px;
  min-width: 1080px;
  margin: 0 auto 0 auto;
+ font-family: 'Sawarabi Mincho' , serif;
 }
 /* ヘッダー */
 header {
@@ -59,6 +60,7 @@ header {
     width: 100%;
     text-align: center;
 }
+
 #main-message > p {
     font-size: 20px;
     margin: 200px 0 0 400px;
@@ -132,10 +134,26 @@ header {
 }
 
 /* イベント */
-.event-h1 {
+.event {
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+.event > a {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+.event > a:link {
+    color: black;
+}
+.event > a:hover {
+    color: orange;
+}
+.event > a:active {
+    color: purple;
 }
 
 .event-img {
@@ -215,13 +233,18 @@ footer {
     margin-left: 25%;
     width: 100%;
     height: 500px;
-    background-color: lightgray;
+    background-color: gray;
     display: flex;
     justify-content: space-between;
     max-width: 980px;
-    margin: 0 auto 0 auto;
-    
+    margin: 0 auto 0 auto;    
 }
+.footer-h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
 .footer-wrap .menu-left, .menu-center, .menu-right {
     display: inline-block;
     width: 20%;
@@ -232,18 +255,18 @@ footer {
 }
 .menu-left > h3 {
     text-align: left;
-    border-bottom: 3px solid #2ac5b3;
+    border-bottom: 3px solid orange;
     padding: 5px;
     
 }
 .menu-center > h3 {
     text-align: left;
-    border-bottom: 3px solid #2ac5b3;
+    border-bottom: 3px solid orange;
     padding: 5px;
 }
 .menu-right > h3 {
     text-align: left;
-    border-bottom: 3px solid #2ac5b3;
+    border-bottom: 3px solid orange;
     padding: 5px;
 }
 .footer-wrap  ul {
@@ -253,13 +276,13 @@ footer {
     text-align: left;
 }
 .footer-wrap {
-    background-color: lightgray;
-    color: black;
+   
+    color: white;
     display: flex;
 }
 .footer-wrap a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .footer-wrap a:hover {
     color: orange;
@@ -520,4 +543,33 @@ table th {
 table td {
     text-align: left;
     padding: 10px 20px;
+}
+
+/* イベント */
+.event1 {
+    height: 150px;
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    margin: 20px auto 20px auto;
+}
+.header_event1 {
+    font-size: 30px;
+    text-align: left;
+    line-height: 150px;
+    margin-left: 20px;
+}
+.event2-h1 {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 3px solid orange;
+}
+
+.event2-img {
+    width: 100%;
+    margin: 0 10px 20px 0;
+}
+.event2-img > p {
+    font-size: 20px;
+    text-align: center;
+    color: brown;
 }

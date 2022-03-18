@@ -3,6 +3,9 @@
 </main>
 <footer>
     <div class="footer-wrap">
+      <div>
+          <h1 class="footer-h1">楠工務店</h1>
+      </div>
       <div class="menu-left">
           <h3>新築・注文住宅</h3>
           <ul class="footer-left">

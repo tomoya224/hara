@@ -19,7 +19,7 @@
 
 <!-- 新築 -->
 <div class="shintiku">
-    <h1 class="shintiku-h1">新築</div>
+    <h1 class="shintiku-h1">新築</h1>
     <div class="shintiku-flex">
       <div class="shintiku-img">
            <div>

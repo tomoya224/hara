@@ -4,7 +4,7 @@
   <article>
       <section id="main-visual">
         <div id="main-message">
-            <h1>家づくりは暮らしづくりへ。</h1>
+            <h1 class="message">家づくりは暮らしづくりへ。</h1>
             <p>READ MORE</p>
        </div>
        <div class="main-img">
@@ -47,8 +47,10 @@
 
 
 <!-- イベント情報 -->
-<section id="event">
- <h1 class="event-h1">イベント情報</h1>
+<div class="event">
+  
+      <a href="/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88/">イベント情報</a>
+    
 
    <img class="event-img" src="<?php echo get_template_directory_uri() ?>/images/event.png">
 </div>
